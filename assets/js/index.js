@@ -5,7 +5,7 @@ $(function () {
     getUserinfo()
 
     $('#btnLogout').on('click', function (e) {
-        // e.preventDefault()
+        e.preventDefault()
         layer.confirm('确定退出登录?', { icon: 3, title: '提示' }, function (index) {
             // 点击确定时执行的回调函数
             // 跳转到登录页
